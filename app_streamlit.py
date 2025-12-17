@@ -160,7 +160,6 @@ csv_path = os.path.join(os.path.dirname(__file__), CSV_NAME)
 # Carregar base (sem upload)
 try:
     df_base = load_base(csv_path)
-    st.success(f"")
 except Exception as e:
     st.error("Não foi possível carregar a base nativa do repositório.")
     st.code(f"Tentativa de leitura em: {csv_path}")
