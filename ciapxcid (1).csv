@@ -1,0 +1,687 @@
+CIAP,DescricaoCIAP,CID10,DescricaoCID
+A01,Dor generalizada /múltipla,R52,Dor não classificada em outra parte
+A02,Arrepios/ calafrios,R688,Outros sintomas e sinais gerais especificados
+A03,Febre,R50,Febre de origem desconhecida e de outras origens
+A04,Debilidade/cansaço geral/fadiga,R53,"Mal estar, fadiga"
+A05,Sentir-se doente,R53,"Mal estar, fadiga"
+A06,Desmaio/síncope,R55,Síncope e colapso
+A07,Coma,R402,Coma não especificado
+A08,Inchaço,R688,Outros sintomas e sinais gerais especificados
+A09,Problemas de sudorese,R61,Hiperidrose
+A10,Sangramento/Hemorragia NE,R58,Hemorragia não classificada em outra parte
+A11,Dores torácicas NE,R07,Dor de garganta e no peito
+A13,Receio/Medo do tratamento,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+A16,Criança irritável,R681,Sintomas não específicos peculiares à infância
+A18,Preocupação com aparência,R468,Outros sintomas e sinais relativos à aparência e ao comportamento
+A20,Pedido/discussão eutanásia,Z718,Outros aconselhamentos especificados
+A21,Fator de risco de malignidade,Z80,História familiar de neoplasia malígna
+A23,Fator de risco NE,Z918,História pessoal de outros fatores de risco especificados não classificados em outra parte
+A25,Medo de morrer/medo da morte,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+A26,Medo de câncer NE,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+A27,Medo de outra doença NE,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+A28,Limitação funcional/incapacidade NE,Z736,Limites impostos às atividades por invalidez
+A29,Outros sinais/sintomas gerais,R688,Outros sintomas e sinais gerais especificados
+A70,Tuberculose,A16,Tuberculose das vias respiratórias sem confirmação bacteriológica ou histológica
+A71,Sarampo,B05,Sarampo
+A72,Varicela,B01,Varicela
+A73,Malária,B54,Malária não especificada
+A74,Rubéola,B06,Rubéola
+A75,Mononucleose infecciosa,B27,Mononucleose infecciosa
+A76,Outro exantema viral,B09,Infecção viral não especificada caracterizada por lesões da pele e membranas mucosas
+A77,Dengue e outras doenças virais NE,B34,Doenças por vírus de localização não especificada
+A78,Hanseníase e outras doenças infecciosas NE,B99,"Doenças infecciosas, outras e as não especificadas"
+A79,Carcinomatose (localização primária desconhecida),C80,"Neoplasia maligna, sem especificação de localização"
+A80,Lesão traumática/acidente NE,T14,Traumatismo de região não especificada do corpo
+A81,Politraumatismos/ferimentos múltiplos,T07,Traumatismos múltiplos não especificados
+A82,Efeito secundário de lesão traumática,T941,Seqüelas de traumatismos não especificados por regiões do corpo
+A84,Intoxicação por medicamento,T50,Intoxicação por outras drogas medicamentos e substancias biológicas e as não especificadas
+A85,Efeito adverso de fármaco dose correta,T887,Efeito adverso não especificado de droga ou medicamento
+A86,Efeito tóxico de substância não medicinal,T65,Efeito tóxico de outras substancias e as não especificadas
+A87,Complicações de tratamento médico,T88,Outras complicações de cuidados medicos e cirurgicos não classificadas em outra parte
+A88,Efeito adverso de fator físico,T75,Efeito de outras causas externas
+A89,Efeito da prótese,T85,Complicação de outros dispositivos protéticos implantes e enxertos internos
+A90,Malformação congênita NE/múltiplas,Q89,Outras malformações congênitas não classificadas em outra parte
+A91,Investigação com resultado anormal NE,R89,Achados anormais de material proveniente de outros orgãos aparelhos sistemas e tecidos
+A92,Alergia/reação alérgica NE,T784,Alergia não especificada
+A93,Recém nascido prematuro,P073,Outros recém-nascidos de pré-termo
+A94,"Morbidade perinatal, outra",P96,Outras afecções originadas no periodo perinatal
+A95,Mortalidade perinatal,P95,MORTE FETAL DE CAUSA NAO ESPECIFICADA
+A96,Morte,R99,Outras causas mal definidas e as não especificadas de mortalidade
+A97,Sem doença,Z768,Contatos com serviços de saúde por outras circunstâncias especificadas
+A98,Medicina preventiva/manutenção da saúde,Z01,Outros exames e investigações especiais de pessoas sem queixa ou diagnóstico relatado
+A99,Outras doenças gerais NE,R69,Causas desconhecidas e não especificadas de morbidade
+B02,Gânglio linfático aumentado/doloroso,R59,Aumento de volume dos ganglios linfáticos
+B04,Sinais/sintomas sangue,R688,Outros sintomas e sinais gerais especificados
+B25,Medo de VIH/ HIV/SIDA/ AIDS,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+B26,Medo de câncer no sangue/linfático,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+B27,Medo de outras doenças do sangue /vasos linfáticos,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+B28,Limitação funcional/incapacidade,Z736,Limites impostos às atividades por invalidez
+B29,Outros sinais/ sintomas do sangue/ sistema linfático/ baço NE,R688,Outros sintomas e sinais gerais especificados
+B70,Linfadenite aguda,L04,Linfadenite aguda
+B71,Linfadenite crónica NE,I88,Linfadenite inespecifica
+B72,Doença de Hodgkin/linfomas,C81,Doença de Hodgkin
+B73,Leucemia,C95,Leucemia de tipo célular não especificado
+B74,Outra neoplasia maligna no sangue,C96,Out neoplasias malígnas e as não especificadas tecidos linfático hematopoético e tecidos correlatos
+B75,Neoplasia benigna NE,D47,Out neoplasias comport incerto ou desconhecido tecidos linfático hematopoético e tecidos correlatos
+B76,Rotura traumática do baço,S360,Traumatismo do baço
+B77,Outras lesões traumáticas do sangue/linfa/baço,T14,Traumatismo de região não especificada do corpo
+B78,Anemia hemolítica hereditária,D58 ,
+B79,Outra malformação congênita do sangue/linfática,Q898,Outras malformações congênitas especificadas
+B80,Anemia por deficiência de ferro,D50,Anemia por deficiência de ferro
+B81,Anemia perniciosa/deficiência de folatos,D53,Outras anemias nutricionais
+B82,Outras anemias NE,D64,Outras anemias
+B83,Púrpura/defeitos de coagulação,D69,Purpura e outras afecções hemorrágicas
+B84,Glóbulos brancos anormais,R728,
+B87,Esplenomegalia,R161,Esplenomegalia não classificada em outra parte
+B90,Infecção por VIH/ HIV/SIDA/ AIDS,B24,Doença pelo vírus da imunodeficiência humana [HIV] não especificada
+B99,Outra doença do sangue/linfáticos/baço,D75,Doenças do sangue e dos orgãos hematopoéticos
+D01,Dor abdominal generalizada/cólicas,R108,
+D02,"Dores abdominais, epigástricas",R101,Dor localizada no abdome superior
+D03,Azia/ Queimação,R12,Pirose
+D04,Dor anal/retal,R102,Dor pélvica e perineal
+D05,Irritação perianal,L290,Prurido anal
+D06,Outras dores abdominais localizadas,R103,Dor localizada em outras partes do abdome inferior
+D07,Dispepsia/indigestão,K30,DISPEPSIA
+D08,Flatulência /gases/eructações,R14,Flatulência e afecções correlatas
+D09,Náusea,R11,Náusea e vômitos
+D10,Vomito,R11,Náusea e vômitos
+D11,Diarreia,K591,Diarréia funcional
+D12,Obstipação,K590,Constipação
+D13,Icterícia,R17,Icterícia não especificada
+D14,Hematêmese/vómito sangue,K920,Hematêmese
+D15,Melena,K921,Melena
+D16,Hemorragia retal,K625,Hemorragia do ânus e do reto
+D17,Incontinência fecal,R15,Incontinência fecal
+D18,Alterações nas fezes/mov. intestinais,R194,Alteração do hábito intestinal
+D19,Sinais/sintomas dos dentes/gengivas,K08,Transtornos dos dentes e de suas estruturas de sustentação
+D20,Sinais/sintomas da boca/língua/lábios,R198,Outros sintomas e sinais especificados relativos ao aparelho digestivo e ao abdome
+D21,Problemas de deglutição,R13,Disfagia
+D23,Hepatomegalia,R162,Hepatomegalia com esplenomegalia não classificada em outra parte
+D24,Massa abdominal NE,R190,"Massa, tumoração ou tumefação intra-abdominal e pélvica"
+D25,Distensão abdominal,R190,"Massa, tumoração ou tumefação intra-abdominal e pélvica"
+D26,Medo de câncer no aparelho digestivo,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+D27,Medo de outras doenças aparelho digestivo,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+D28,Limitação funcional/incapacidade,Z736,Limites impostos às atividades por invalidez
+D29,Outros sinais/sintomas digestivos,R198,Outros sintomas e sinais especificados relativos ao aparelho digestivo e ao abdome
+D70,Infecção gastrointestinal,A04,Outras infecções intestinais bactérianas
+D71,Caxumba/parotidite epidêmica,B26,Caxumba (parotidite epidemica)
+D72,Hepatite viral,B19,Hepatite viral não especificada
+D73,"Gastroenterite, presumível infecção",A09,Diarréia e gastroenterite de origem infecciosa presumível
+D74,Neoplasia maligna do estômago,C16,Neoplasia malígna do estomago
+D75,Neoplasia maligna do cólon/reto,C18,Neoplasia malígna do colon
+D76,Neoplasia maligna do pâncreas,C25,Neoplasia malígna do pâncreas
+D77,Neoplasia maligna do aparelho digestivo NE,C26,Neoplasia malígna de outros orgãos digestivos e de localizações mal definidas no aparelho digestivo
+D78,Neoplasia benigna do aparelho digestivo/incerta,D13,Neoplasia benigna de outras partes e de partes mal definidas do aparelho digestivo
+D79,Corpo estranho no aparelho digestivo,T18,Corpo estranho no aparelho digestivo
+D80,Outras lesões traumáticas,S36,Traumatismo de orgãos intra-abdominais
+D81,Malformações congênitas do aparelho digestivo,Q45,Outras malformações congênitas do aparelho digestivo
+D82,Doença dos dentes/gengivas,K08,Transtornos dos dentes e de suas estruturas de sustentação
+D83,Doença da boca/língua/lábios,K137,Outras lesões e as não especificadas da mucosa oral
+D84,Doença do esôfago,K22,Doenças do esôfago
+D85,Úlcera do duodeno,K26,Úlcera duodenal
+D86,"Úlcera péptica, outra",K27,Úlcera peptica de localização não especificada
+D87,Alterações funcionais estômago,K29,Gastrite e duodenite
+D88,Apendicite,K37,OUTRAS ESPECIFICACOES
+D89,Hérnia inguinal,K40,Hérnia inguinal
+D90,Hérnia de hiato /diafragmática,K44,Hérnia diafragmática
+D91,"Hérnia abdominal, outras",K46,Hérnia abdominal não especificada
+D92,Doença diverticular intestinal,K57,Doença diverticular do intestino
+D93,Síndrome do cólon irritável,K58,Síndrome do colon irritavel
+D94,Enterite crónica/colite ulcerosa,K52,Outras gastroenterites e colites não-infecciosas
+D95,Fissura anal / abcesso perianal,K63,Doenças do intestino
+D96,Lombrigas /outros parasitas,B83,Outras helmintiases
+D97,Doenças do fígado /NE,K76,Doenças do fígado
+D98,"Colecistite, colelitiase",K83,Doenças das vias biliares
+D99,Outra doença do aparelho digestivo,K92,Doenças do aparelho digestivo
+F01,Dor no olho,H571,Dor ocular
+F02,Olho vermelho,H578,Outros transtornos especificados do olho e anexos
+F03,Secreção ocular,H042,Epífora
+F04,Moscas volantes/pontos luminosos/escotomas/ manchas,H531,Distúrbios visuais subjetivos
+F05,Outras perturbações visuais,H53,Disturbios visuais
+F13,Sensações oculares anormais,H578,Outros transtornos especificados do olho e anexos
+F14,Movimentos oculares anormais,H55,Outros movimentos irregulares do olho
+F15,Aparência anormal nos olhos,H578,Outros transtornos especificados do olho e anexos
+F16,Sinais/sintomas das pálpebras,H02,Transtornos da pálpebras
+F17,Sinais/sintomas relacionados a óculos,T888,Outras complicações de cuidados médicos e cirúrgicos especificados não classificados em outra parte
+F18,Sinais/sintomas relacionados a lentes de contato,T888,Outras complicações de cuidados médicos e cirúrgicos especificados não classificados em outra parte
+F27,Medo de doença ocular,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+F28,Limitação funcional/incapacidade,Z736,Limites impostos às atividades por invalidez
+F29,Outros sinais/sintomas oculares,H57,Transtornos do olho e anexos
+F70,Conjuntivite infecciosa,H10,Conjuntivite
+F71,Conjuntivite alérgica,H101,Conjuntivite aguda atópica
+F72,Blefarite/hordéolo/calázio,H01,Outras inflamações da pálpebras
+F73,Outras infecções/inflamações oculares,H57,Transtornos do olho e anexos
+F74,Neoplasia do olho/anexos,D487,Neoplasia de comportamento incerto ou desconhecido de outras localizações especificadas
+F75,Contusão/hemorragia ocular,S001,Contusão da pálpebra e da região periocular
+F76,Corpo estranho ocular,T15,Corpo estranho na parte externa do olho
+F79,Outras lesões traumáticas oculares,S05,Traumatismo do olho e da órbita ocular
+F80,Obstrução canal lacrimal da criança,Q105,Estenose ou estreitamento congênito do canal lacrimal
+F81,Outras malformações congênitas do olho,Q15,Outras malformações congênitas do olho
+F82,Descolamento da retina,H332,Descolamento seroso da retina
+F83,Retinopatia,H350,Retinopatias de fundo e alterações vasculares da retina
+F84,Degeneração macular,H353,Degeneração da mácula e do pólo posterior
+F85,Ulcera da córnea,H160,Úlcera de córnea
+F86,Tracoma,A71,Tracoma
+F91,Erro de refração,H527,Transtorno não especificado da refração
+F92,Catarata,H26,Outras cataratas
+F93,Glaucoma,H40,Glaucoma
+F94,Cegueira,H543,Perda não qualificada da visão em ambos os olhos
+F95,Estrabismo,H50,Outros estrabismos
+F99,Outra doenças oculares/anexos,H578,Outros transtornos especificados do olho e anexos
+H01,Dor de ouvidos,H920,Otalgia
+H02,Problemas de audição,H932,Outras percepções auditivas anormais
+H03,"Acufeno, zumbidos, ruído, assobios",H931,Tinnitus
+H04,Secreção no ouvido,H921,Otorréia
+H05,Hemorragia no ouvido,H922,Otorragia
+H13,Sensação de ouvido tapado,H938,Outros transtornos especificados do ouvido
+H15,Preocupação com a aparência das orelhas,R468,Outros sintomas e sinais relativos à aparência e ao comportamento
+H27,Medo de doença do ouvido,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+H28,Limitação funcional/incapacidade,Z736,Limites impostos às atividades por invalidez
+H29,Outros sinais/sintomas ouvido,H93,Transtornos do ouvido não classificados em outra parte
+H70,Otite externa,H60,Otite externa
+H71,Otite media aguda/miringite,H660,Otite média aguda supurativa
+H72,Otite média serosa,H65,Otite media não-supurativa
+H73,Infecção da Trompa de Eustáquio,H681,Obstrução da trompa de eustáquio
+H74,Otite media crónica,H663,Outras otites médias supurativas crônicas
+H75,Neoplasia do ouvido,D385,Neoplasia de comportamento incerto ou desconhecido de outros órgãos respiratórios
+H76,Corpo estranho do ouvido,T16,Corpo estranho no ouvido
+H77,Perfuração do tímpano,H72,Perfuração da membrana do tímpano
+H78,Traumatismo superficial do ouvido,S004,Traumatismo superficial do ouvido
+H79,Outros traumatismos do ouvido,S09,Outros traumatismos da cabeca e os não especificados
+H80,Malformações congênitas do ouvido,Q17,Outras malformações congênitas da orelha
+H81,Cerúmen no ouvido em excesso,H612,Cerume impactado
+H82,Síndrome vertiginosa,H81,Transtornos da função vestibular
+H83,Otoesclerose,H80,Otosclerose
+H84,Presbiacusia,H911,Presbiacusia
+H85,Lesão acústica,H833,Efeitos do ruído sobre o ouvido interno
+H86,Surdez,H91,Outras perdas de audição
+H99,Outra doença do ouvido/mastóide,H938,Outros transtornos especificados do ouvido
+K01,Dor atribuída ao coração,R072,Dor precordial
+K02,Sensação de pressão/aperto atribuída ao coração,R072,Dor precordial
+K03,Dores atribuídas ao aparelho circulatório NE,R098,Outros sintomas e sinais especificados relativos aos aparelhos circulatório e respiratório
+K04,Palpitações/percepção dos batimentos cardíacos,R002,Palpitações
+K05,Outras irregularidades dos batimentos cardíacos,R008,Outras anormalidades e as não especificadas do batimento cardíaco
+K06,Veias proeminentes,I878,Outros transtornos venosos especificados
+K07,Tornozelos inchados/edema,R60,Edema não classificado em outra parte
+K22,Fator de risco para doença cardiovascular,Z824,História familiar de doença isquêmica do coração e outras doenças do aparelho circulatório
+K24,Medo de doença cardíaca,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+K25,Medo de hipertensão,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+K27,Medo de outra doença cardiovascular,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+K28,Limitação funcional/incapacidade,Z736,Limites impostos às atividades por invalidez
+K29,Outros sinais/sintomas cardiovasculares,R098,Outros sintomas e sinais especificados relativos aos aparelhos circulatório e respiratório
+K70,Doença infecciosa do aparelho circulatório,I40,Miocardite aguda
+K71,Febre reumática/cardiopatia,I09,Doenças reumáticas do coração
+K72,Neoplasia do aparelho circulatório,D487,Neoplasia de comportamento incerto ou desconhecido de outras localizações especificadas
+K73,Malformações congênitas do aparelho circulatório,Q28,Outras malformações congênitas do aparelho circulatório
+K74,Doença cardíaca isquémica com angina,I20,Angina pectoris
+K75,Infarto ou Enfarte agudo miocárdio,I21,Infarto agudo do miocárdio
+K76,Doença cardíaca isquémica sem angina,I25,Doença isquemica crônica do coração
+K77,Insuficiência cardíaca,I50,Insuficiência cardíaca
+K78,Fibrilação/flutter auricular/ atrial,I48,Flutter e fibrilação atrial
+K79,Taquicardia Paroxística,I47,Taquicardia paroxistica
+K80,Arritmia cardíaca NE,I49,Outras arritmias cardíacas
+K81,Sopro cardíaco/arterial NE,R011,"Sopro cardíaco, não especificado"
+K82,Doença cardiopulmonar,I27,Doença cardíaca pulmonar
+K83,Doença valvular cardíaca NE,I08,Doenças de multiplas valvas
+K84,Outras doenças cardíacas,I51,Doenças cardíacas maldefinidas
+K85,Pressão arterial elevada,R030,Valor elevado da pressão arterial sem o diagnóstico de hipertensão
+K86,Hipertensão sem complicações,I10,Hipertensão essencial (primária)
+K87,Hipertensão com complicações,I13,Doença cardíaca e renal hipertensiva
+K88,Hipotensão postural,I951,Hipotensão ortostática
+K89,Isquêmia/ acidente cerebral transitória(o),G45,Acidentes vasculares cerebrais isquêmicos transitórios e síndromes correlatas
+K90,Trombose/acidente vascular cerebral,I64,"Acidente vascular cerebral, não especificado como hemorrágico ou isquêmico"
+K91,Doença vascular cerebral,I67,Doenças cerebrovasculares
+K92,Aterosclerose/doença vascular periférica,I73,Doenças vasculares periféricas
+K93,Embolia pulmonar,I26,Embolia pulmonar
+K94,Flebite/tromboflebite,I80,Flebite e tromboflebite
+K95,Veias varicosas da perna,I83,Varizes dos membros inferiores
+K96,Hemorróidas,I84,Hemorroidas
+K99,Outras doenças do aparelho circulatório,I99,Outros transtornos do aparelho circulatório e os não especificados
+L01,Sinais/sintomas do pescoço,M542,Cervicalgia
+L02,Sinais/sintomas da região dorsal,M54,Dorsalgia
+L03,Sinais/sintomas da região lombar,M545,Dor lombar baixa
+L04,Sinais/sintomas do tórax,R298,Outros sintomas e sinais relativos aos sistemas nervoso e osteomuscular e os não especificados
+L05,Sinais/sintomas da axila,R298,Outros sintomas e sinais relativos aos sistemas nervoso e osteomuscular e os não especificados
+L07,Sinais/sintomas da mandíbula,M255,Dor articular
+L08,Sinais/sintomas dos ombros,M255,Dor articular
+L09,Sinais/sintomas dos braços,M796,Dor em membro
+L10,Sinais/sintomas dos cotovelos,M255,Dor articular
+L11,Sinais/sintomas dos punhos,M255,Dor articular
+L12,Sinais/sintomas das mãos e dedos,M796,Dor em membro
+L13,Sinais/sintomas do quadril,M255,Dor articular
+L14,Sinais/sintomas da coxa/perna,M796,Dor em membro
+L15,Sinais/sintomas do joelho,M255,Dor articular
+L16,Sinais/sintomas do tornozelo,M255,Dor articular
+L17,Sinais/sintomas do pé/dedos pé,M796,Dor em membro
+L18,Dores musculares,M791,Mialgia
+L19,Sinais/sintomas musculares NE,M79,Transtornos dos tecidos moles não classificados em outra parte
+L20,Sinais/sintomas das articulações NE,M25,Transtornos articulares não classificados em outra parte
+L26,Medo de câncer no aparelho músculo-esquelético,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+L27,"Medo de doença no aparelho músculo-esquelético, outro",Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+L28,Limitação funcional/incapacidade,Z736,Limites impostos às atividades por invalidez
+L29,Outros sinais/sintomas do aparelho músculo-esquelético,R298,Outros sintomas e sinais relativos aos sistemas nervoso e osteomuscular e os não especificados
+L70,Infecções do aparelho músculo-esquelético,M00,Artrite piogênica
+L71,Neoplasia maligna do aparelho músculo-esquelético,C41,Neoplasia malígna de outras localizações e de localizações não especificadas
+L72,Fratura: rádio/cúbito,S52,Fratura do antebraço
+L73,Fratura: tíbia/perônio/ fíbula,S82,Fratura da perna incluindo tornozelo
+L74,Fratura: osso da mão/pé,S628,Fratura de outras partes e de partes não especificadas do punho e da mão
+L75,Fratura: fémur,S72,Fratura do femur
+L76,Outras fraturas,T142,Fratura de região não especificada do corpo
+L77,Entorses e distensões do tornozelo,S934,Entorse e distensão do tornozelo
+L78,Entorses e distensões do joelho,S836,Entorse e distensão de outras partes e das não especificadas do joelho
+L79,Entorses e distensões das articulações NE,T143,"Luxação, entorse e distensão de região não especificada do corpo"
+L80,Luxação/subluxação,T143,"Luxação, entorse e distensão de região não especificada do corpo"
+L81,Traumatismos do aparelho musculoesquelético NE,T146,Traumatismo de músculos e tendões de região não especificada do corpo
+L82,Malformações congênitas do aparelho músculo-esquelético,Q79,Malformações congênitas do sistema osteomuscular não classificadas em outra parte
+L83,Doenças ou síndromes da coluna cervical,M48,Espondilopatias
+L84,Doenças ou síndromes da coluna sem irradiação de dor,M53,Outras dorsopatias não classificadas em outra parte
+L85,Deformação adquirida da coluna,M43,Outras dorsopatias deformantes
+L86,Síndrome vertebral com irradiação dor,M543,Ciática
+L87,Bursite/tendinite/sinovite NE,M77,Outras entesopatias
+L88,Artrite reumatóide/seropositiva,M06,Outras artrites reumatóides
+L89,Osteoartrose do quadril,M16,Coxartrose (artrose do quadril)
+L90,Osteoartrose do joelho,M17,Gonartrose (artrose do joelho)
+L91,Outras osteoartroses,M19,Outras artroses
+L92,Síndrome do ombro doloroso,M75,Lesões do ombro
+L93,Cotovelo de tenista,M771,Epicondilite lateral
+L94,Osteocondrose,M93,Outras osteocondropatias
+L95,Osteoporose,M81,Osteoporose sem fratura patológica
+L96,Lesão interna aguda do joelho,S837,Traumatismo de estruturas múltiplas do joelho
+L97,Neoplasia benigna/incertas,D481,Neoplasia de comportamento incerto ou desconhecido do tecido conjuntivo e outros tecidos moles
+L98,Malformação adquirida de um membro,M21,Outras deformidades adquiridas dos membros
+L99,Outra doença do aparelho músculo-esquelético,M99,Lesões biomecanicas não classificadas em outra parte
+N01,Cefaléia,R51,Cefaléia
+N03,Dores da face,G501,Dor facial atípica
+N04,Síndrome das pernas inquietas,G258,"Outras doenças extrapiramidais e transtornos dos movimentos, especificados"
+N05,Formigamento/ parestesia nos dedos das mãos/pés,R202,Parestesias cutâneas
+N06,Outras alterações da sensibilidade,R208,Outros distúrbios e os não especificadas da sensibilidade cutânea
+N07,Convulsões/ataques,R568,Outras convulsões e as não especificadas
+N08,Movimentos involuntários anormais,R25,Movimentos involuntários anormais
+N16,Alterações do olfato/gosto,R438,Outros distúrbios do olfato e do paladar e os não especificados
+N17,Vertigens/tonturas,R42,Tontura e instabilidade
+N18,Paralisia/fraqueza,G83,Outras síndromes paraliticas
+N19,Perturbações da fala,R478,Outros distúrbios da fala e os não especificados
+N26,Medo de câncer do sistema neurológico,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+N27,Medo de outras doenças neurológicas,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+N28,Limitação funcional/incapacidade,Z736,Limites impostos às atividades por invalidez
+N29,"Sinais/sintomas do sistema neurológico, outros",R298,Outros sintomas e sinais relativos aos sistemas nervoso e osteomuscular e os não especificados
+N70,Poliomielite,A80,Poliomielite aguda
+N71,Meningite/encefalite,G04,Encefalite mielite e encefalomielite
+N72,Tétano,A35,Outros tipos de tétano
+N73,Outra infecção neurológica,A89,Infecções virais não especificadas do sistema nervoso central
+N74,Neoplasia maligna do sistema neurológico,C72,Neoplasia malígna de outras partes do sistema nervoso central
+N75,Neoplasia benigna do sistema neurológico,D33,Neoplasia benigna do encefalo e de outras partes do sistema nervoso central
+N76,Neoplasia do sistema neurológico de natureza incerta,D43,Neoplasia de comportamento incerto ou desconhecido do encefalo e do sistema nervoso central
+N79,Concussão,S060,Concussão cerebral
+N80,Outras lesões cranianas,S06,Traumatismo intracraniano
+N81,Outra lesão do sistema neurológico,T144,Traumatismo de nervo(s) de região não especificada do corpo
+N85,Malformações congênitas,Q07,Outras malformações congênitas do sistema nervoso
+N86,Esclerose múltipla,G35,Esclerose múltipla
+N87,Parkinsonismo,G20,Doença de Parkinson
+N88,Epilepsia,G40,Epilepsia
+N89,Enxaqueca,G43,Enxaqueca
+N90,Cefaléia de cluster,G440,Síndrome de Cluster-Headache
+N91,Paralisia facial/paralisia de Bell,G510,Paralisia de bell
+N92,Nevralgia do trigémio,G500,Nevralgia do trigêmeo
+N93,Síndrome do túnel do carpo/ Síndrome do canal cárpico,G560,Síndrome do túnel do carpo
+N94,Neurite/ Nevrite/neuropatia periférica,G62,Outras polineuropatias
+N95,Cefaléia tensional,G442,Cefaléia tensional
+N99,Outras doenças do sistema neurológico,G98,Outros transtornos do sistema nervoso não classificados em outra parte
+P01,Sensação de ansiedade/nervosismo/tensão,R450,Nervosismo
+P02,Reação aguda ao estresse,F430,Reação aguda ao stress
+P03,Tristeza/ Sensação de depressão,R452,Tristeza
+P04,Sentir/comportar-se de forma irritável/zangada,R454,Irritabilidade e mau humor
+P05,Sensação/comportamento senil,R54,Senilidade
+P06,Perturbação do sono,F51,Transtornos não-orgânicos do sono devidos a fatores emocionais
+P07,Diminuição do desejo sexual,F520,Ausência ou perda do desejo sexual
+P08,Diminuição da satisfação sexual,F52,Disfunção sexual não causada por transtorno ou doença orgânica
+P09,Preocupação com a preferência sexual,F66,Transtornos psicológicos e comportamentais associados ao desenvolvimento sexual e a sua orientação
+P10,Gaguejar/balbuciar/tiques,F985,Gagueira [tartamudez]
+P11,Problemas de alimentação da criança,F982,Transtorno de alimentação na infância
+P12,Molhar a cama/enurese,F980,Enurese de origem não-orgânica
+P13,Encoprese/outros problemas de incontinência fecal,F981,Encoprese de origem não-orgânica
+P15,Abuso crônico de álcool,F101,Transtornos mentais e comport. devidos uso de álcool - uso nocivo para a saúde
+P16,Abuso agudo de álcool,F100,Transtornos mentais e comport. devidos uso de álcool - intoxicação aguda
+P17,Abuso do tabaco,F171,Transtornos mentais e comport. dev. uso fumo - uso nocivo para a saúde
+P18,Abuso de medicação,F55,Abuso de substâncias que não produzem dependência
+P19,Abuso de drogas,F191,Transt. mentais/comport. dev. uso múlt. drogas/out. psicoativas - uso nocivo para a saúde
+P20,Alterações da memória,R418,Outros sintomas e sinais especificados relativos às funções cognitivas e à consciência
+P22,Sinais/sintomas relacionados ao comportamento da criança,F91,Disturbios de conduta
+P23,Sinais/sintomas relacionados ao comportamento do adolescente,F91,Disturbios de conduta
+P24,Dificuldades especificas de aprendizagem,R488,Outras disfunções simbólicas e as não especificadas
+P25,Problemas da fase de vida de adulto,Z600,Problemas de adaptação às transições do ciclo de vida
+P27,Medo de perturbações mentais,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+P28,Limitação funcional/incapacidade,Z736,Limites impostos às atividades por invalidez
+P29,"Sinais/sintomas psicológicos, outros",R458,Outros sintomas e sinais relativos ao estado emocional
+P70,Demência,F03,Demência não especificada
+P71,Outras psicoses orgânicas NE,F06,Outros transtornos mentais devidos a disfunçãocerebral e a doença fisica
+P72,Esquizofrenia,F20,Esquizofrenia
+P73,Psicose afetiva,F31,Transtorno afetivo bipolar
+P74,Distúrbio ansioso/estado de ansiedade,F41,Transtornos ansiosos
+P75,Somatização,F45,Transtornos somatoformes
+P76,Perturbações depressivas,F32,Episodios depressivos
+P77,Suicídio/tentativa de suicídio,F99,Transtorno mental não especificado em outra parte
+P78,Neurastenia,F480,Neurastenia
+P79,Fobia/perturbação compulsiva,F42,Transtorno obsessivo-compulsivo
+P80,Perturbações de personalidade,F60,Transtornos especificos da personalidade
+P81,Perturbação hipercinética,F90,Transtornos hipercinéticos
+P82,Estresse pós traumático,F431,Estado de stress pós-traumático
+P85,Retardo/ Atraso mental,F79,Retardo mental não especificado
+P86,"Anorexia nervosa, bulimia",F50,Transtornos da alimentação
+P98,Outras psicoses NE,F29,Psicose não-orgânica não especificada
+P99,Outras perturbações psicológicas,F99,Transtorno mental não especificado em outra parte
+R01,Dor atribuída ao aparelho respiratório,R071,Dor torácica ao respirar
+R02,"Dificuldade respiratória, dispneia",R060,Dispnéia
+R03,Respiração ruidosa,R062,Respiração ofegante
+R04,Outros problemas respiratórios,R068,Outras anormalidades e as não especificadas da respiração
+R05,Tosse,R05,Tosse
+R06,Hemorragia nasal/epistaxe,R040,Epistaxis
+R07,Espirro/congestão nasal,R067,Espirro
+R08,Outros sinais/sintomas nasais,J348,Outros transtornos especificados do nariz e dos seios paranasais
+R09,Sinais/sintomas dos seios paranasais,J348,Outros transtornos especificados do nariz e dos seios paranasais
+R21,Sinais/sintomas da garganta,R070,Dor de garganta
+R23,Sinais/sintomas da voz,R498,Outros distúrbios da voz e os não especificados
+R24,Hemoptise,R042,Hemoptise
+R25,Expectoração/mucosidade anormal,R093,Escarro anormal
+R26,Medo de câncer do aparelho respiratório,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+R27,Medo de outras doenças respiratórias,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+R28,Limitação funcional/incapacidade,Z736,Limites impostos às atividades por invalidez
+R29,"Sinais/sintomas do aparelho respiratório, outros",R098,Outros sintomas e sinais especificados relativos aos aparelhos circulatório e respiratório
+R71,Tosse convulsa/ pertussis,A37,Coqueluche
+R72,Infecção estreptocócica da orofaringe,J030,Amigdalite estreptocócica
+R73,Abcesso/furúnculo no nariz,J340,"Abscesso, furúnculo e antraz do nariz"
+R74,Infecção aguda do aparelho respiratório superior (IVAS),J06,Infecções agudas das vias aereas superiores de localizações multiplas e não especificadas
+R75,Sinusite crónica/aguda,J01,Sinusite aguda
+R76,Amigdalite aguda,J03,Faringite aguda devida a outros microorganismos especificados
+R77,Laringite/traqueíte aguda,J040,Laringite aguda
+R78,Bronquite/bronquiolite aguda,J22,Infecções agudas não especificada das vias aéreas inferiores
+R79,Bronquite crônica,J42,Bronquite crônica não especificada
+R80,Gripe,J111,"Influenza [gripe] com outras manifestações respiratórias, devida a vírus não identificado"
+R81,Pneumonia,J18,Pneumonia por microorganismo não especificada
+R82,Pleurite/derrame pleural,R091,Pleurisia
+R83,Outra infecção respiratória,J311,Nasofaringite crônica
+R84,Neoplasia maligna dos brônquios/pulmão,C34,Neoplasia malígna dos bronquios e dos pulmões
+R85,Outra neoplasia respiratória maligna,C39,Neoplasia malígna out localização de localização mal def aparelho respiratório orgão intratoracico
+R86,Neoplasia benigna respiratória,D144,"Neoplasia benigna do aparelho respiratório, não especificado"
+R87,Corpo estranho nariz/laringe/brônquios,T17,Corpo estranho no trato respiratório
+R88,Outra lesão respiratória,S27,Traumatismo de outros orgãos intratoracicos e dos não especificados
+R89,Malformação congénita do aparelho respiratório,Q34,Outras malformações congênitas do aparelho respiratório
+R90,Hipertrofia das amígdalas/adenóides,J35,Doenças crônicas das amigdalas e das adenóides
+R92,Neoplasia respiratória NE,D38,Neoplasia comport incerto ou desconhecido ouvido médio e dos orgãos respiratórios e intratoracicos
+R95,Doença pulmonar obstrutiva crónica,J44,Doenças pulmonares obstrutivas crônicas
+R96,Asma,J45,Asma
+R97,Rinite alérgica,J304,Rinite alérgica não especificada
+R98,Síndrome de hiperventilação,R064,Hiperventilação
+R99,Outras doenças respiratórias,J98,Transtornos respiratórios
+S01,Dor/sensibilidade dolorosa da pele,R208,Outros distúrbios e os não especificadas da sensibilidade cutânea
+S02,Prurido,L29,Prurido
+S03,Verrugas,B07,Verrugas de origem viral
+S04,Tumor/inchaço localizado,R22,Tumefação massa ou tumoração localizadas da pele e do tecido subcutâneo
+S05,Tumores/inchaços generalizados,R227,"Tumefação, massa ou tumoração localizadas de múltiplas localizações"
+S06,Erupção cutânea localizada,R21,Eritema e outras erupções cutâneas não especificadas
+S07,Erupção cutânea generalizada,R21,Eritema e outras erupções cutâneas não especificadas
+S08,Alterações da cor da pele,R238,Outras alterações da pele e as não especificadas
+S09,Infecção dos dedos das mãos/pés,L030,Celulite de dedos das mãos e dos pés
+S10,Furúnculo/carbúnculo,L02,Abscesso cutâneo furunculo e antraz
+S11,Infecção pós-traumática da pele,T793,Infecção pós-traumática de ferimento não classificada em outra parte
+S12,Picada ou mordedura de inseto,T140,Traumatismo superficial de região não especificada do corpo
+S13,Mordedura animal/humana,T141,Ferimento de região não especificada do corpo
+S14,Queimadura/escaldão,T300,"Queimadura, parte do corpo não especificada, grau não especificado"
+S15,Corpo estranho na pele,T140,Traumatismo superficial de região não especificada do corpo
+S16,Traumatismo/contusão,T140,Traumatismo superficial de região não especificada do corpo
+S17,Abrasão/arranhão/bolhas,T140,Traumatismo superficial de região não especificada do corpo
+S18,Laceração/corte,T141,Ferimento de região não especificada do corpo
+S19,Outra lesão cutânea,T140,Traumatismo superficial de região não especificada do corpo
+S20,Calos/calosidades,L84,Calos e calosidades
+S21,Sinais/sintomas da textura da pele,R234,Alterações na textura da pele
+S22,Sinais/sintomas das unhas,L60,Afecções das unhas
+S23,Queda de cabelo/calvície,L65,Outras formas não cicatriciais da perda de cabelos ou pelos
+S24,Sinais/sintomas do cabelo/couro cabeludo,L67,Anormalidades da cor e do pediculo dos cabelos e dos pelos
+S26,Medo de câncer de pele,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+S27,Medo de outra doença da pele,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+S28,Limitação funcional/incapacidade,Z736,Limites impostos às atividades por invalidez
+S29,"Sinais/sintomas da pele, outros",R238,Outras alterações da pele e as não especificadas
+S70,Herpes zoster,B02,Herpes Zoster (zona)
+S71,Herpes simples,B00,Infecções pelo vírus do herpes (herpes simples)
+S72,Escabiose/outras acaríases,B86,Escabiose [sarna]
+S73,Pediculose/outras infecções da pele,B88,Outras infestações
+S74,Dermatofitose,B35,Dermatofitose
+S75,Monilíase oral/candidíase na pele,B372,Candidíase da pele e das unhas
+S76,Outras infecções da pele,L08,Outras infecções localizadas da pele e do tecido subcutâneo
+S77,Neoplasias malignas da pele,C44,Outras neoplasias malígnas da pele
+S78,Lipoma,D17,Neoplasia lipomatosa benigna
+S79,Neoplasia cutânea benigna/incerta,D485,Neoplasia de comportamento incerto ou desconhecido da pele
+S80,Ceratose/ Queratose solar/queimadura solar,L56,Outras alterações agudas da pele devidas a radiação ultravioleta
+S81,Hemangioma/linfangioma,D18,Hemangioma e linfangioma de qualquer localização
+S82,Nevos/sinais da pele,D22,Nevos melanociticos
+S83,"Lesões da pele congênitas, outras",Q82,Outras malformações congênitas da pele
+S84,Impetigo,L010,Impetigo [qualquer localização] [qualquer microorganismo]
+S85,Cisto pilonidal/fistula,L05,Cisto pilonidal
+S86,Dermatite seborreica,L21,Dermatite seborreica
+S87,Dermatite/eczema atópico,L20,Dermatite atópica
+S88,Dermatite de contato/alérgica,L30,Outras dermatites
+S89,Dermatite das fraldas,L22,Dermatite das fraldas
+S90,Pitiríase rosada,L42,Pitiríase rósea
+S91,Psoríase,L40,Psoríase
+S92,Doença das glândulas sudoríparas,L74,Afecções das glândulas sudoriparas ecrinas
+S93,Cisto sebáceo,L721,Cisto triquilemal
+S94,Unha encravada,L600,Unha encravada
+S95,Molusco contagioso,B081,Molusco contagioso
+S96,Acne,L70,Acne
+S97,Úlcera crónica da pele,L984,"Úlcera crônica da pele, não classificada em outra parte"
+S98,Urticária,L50,Urticária
+S99,Outras doenças da pele,L98,Outras afecções da pele e do tecido subcutâneo não classificadas em outra parte
+T01,Sede excessiva,R631,Polidipsia
+T02,Apetite excessivo,R632,Polifagia
+T03,Perda de apetite,R630,Anorexia
+T04,Problemas alimentares de lactente/criança,R633,Dificuldades de alimentação e erros na administração de alimentos
+T05,Problemas alimentares do adulto,R633,Dificuldades de alimentação e erros na administração de alimentos
+T07,Aumento de peso,R635,Ganho de peso anormal
+T08,Perda de peso,R634,Perda de peso anormal
+T10,Atraso do crescimento,R62,Retardo do desenvolvimento fisiológico normal
+T11,Desidratação,E86,Depleção de volume
+T26,Medo de câncer do sistema endócrino,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+T27,Medo de outra doença endócrina/metabólica,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+T28,Limitação funcional/incapacidade,Z736,Limites impostos às atividades por invalidez
+T29,"Sinais/sintomas endocrinológicos/metabolicos/nutricionais, outros",R638,Outros sintomas e sinais relativos a ingestão de alimentos e de líquidos
+T70,Infecção endócrina,E060,Tireoidite aguda
+T71,Neoplasia maligna da tiróide,C73,Neoplasia maligna da glândula tireóide
+T72,Neoplasia benigna da tiróide,D34,Neoplasia benigna da glândula tireóide
+T73,Outra neoplasia endócrina NE,D44,Neoplasia de comportamento incerto ou desconhecido das glândulas endocrinas
+T78,Cisto do canal tiroglosso,Q892,Malformações congênitas de outras glândulas endócrinas
+T80,Malformação congénita endócrina/metabólica,Q892,Malformações congênitas de outras glândulas endócrinas
+T81,Bócio,E04,Outros bocios não-tóxicos
+T82,Obesidade,E66,Obesidade
+T83,Excesso de peso,E660,Obesidade devida a excesso de calorias
+T85,Hipertiroidismo/tireotoxicose,E05,Tireotóxicose (hipertireoidismo)
+T86,Hipotiroidismo/mixedema,E03,Outros hipotireoidismos
+T87,Hipoglicemia,E162,Hipoglicemia não especificada
+T89,Diabetes insulino-dependente,E10,Diabetes mellitus insulino-dependente
+T90,Diabetes não insulino-dependente,E11,Diabetes mellitus não-insulino-dependente
+T91,Deficiência vitamínica/nutricional,E63,Outras deficiências nutricionais
+T92,Gota,M10,Gota
+T93,Alteração no metabolismo dos lípidos,E78,Outras lipidemias
+T99,Outras doenças endocrinológica/metabólica/nutricionais,E34,Transtornos endocrinos
+U01,Disúria/micção dolorosa,R30,Dor associada a micção
+U02,Micção frequente/urgência urinária/ polaciúria,R393,
+U04,Incontinência urinária,R32,Incontinência urinária não especificada
+U05,Outros problemas com a micção,R391,Outras dificuldades à micção
+U06,Hematúria,R31,Hematúria não especificada
+U07,Outros sinais/sintomas urinários,R398,Outros sintomas e sinais relativos ao aparelho urinário e os não especificados
+U08,Retenção urinária,R33,Retenção urinária
+U13,"Sinais/sintomas da bexiga, outros",R398,Outros sintomas e sinais relativos ao aparelho urinário e os não especificados
+U14,Sinais/sintomas dos rins,N23,Cólica nefrética não especificada
+U26,Medo de câncer no aparelho urinário,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+U27,Medo de outra doença urinária,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+U28,Limitação funcional/incapacidade,Z736,Limites impostos às atividades por invalidez
+U29,"Sinais/sintomas aparelho urinário, outros",R398,Outros sintomas e sinais relativos ao aparelho urinário e os não especificados
+U70,Pielonefrite,N12,Nefrite túbulo-intersticial não especificada se aguda ou crônica
+U71,Cistite/outra infecção urinária,N30,Cistite
+U72,Uretrite,N341,Uretrites não específicas
+U75,Neoplasia maligna do rim,C64,"Neoplasia maligna do rim, exceto pelve renal"
+U76,Neoplasia benigna do rim,C67,Neoplasia malígna da bexiga
+U77,"Neoplasia maligna do aparelho urinário, outra",C68,Neoplasia malígna de outros orgãos urinários e dos não especificados
+U78,Neoplasia benigna do aparelho urinário,D30,Neoplasia benigna dos orgãos urinários
+U79,Neoplasia do aparelho urinário NE,D41,Neoplasia de comportamento incerto ou desconhecido dos orgãos urinários
+U80,Lesões traumáticas do aparelho urinário,S370,Traumatismo do rim
+U85,Malformação congénita do aparelho urinário,Q64,Outras malformações congênitas do aparelho urinário
+U88,Glomerulonefrite/ sindrome nefrótica,N158,Outras doenças renais túbulo-intersticiais especificadas
+U90,Albuminúria/proteinúria ortostática,N392,Proteinúria ortostática não especificada
+U95,Cálculo urinário,N20,Calculose do rim e do ureter
+U98,Análise de urina anormal NE,R82,Outros achados anormais na urina
+U99,Outras doenças urinárias,N39,Transtornos do trato urinário
+W01,Questão sobre gravidez,Z320,Gravidez (ainda) não confirmada
+W02,Medo de estar grávida,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+W03,Hemorragia antes do parto,O46,Hemorragia anteparto não classificada em outra parte
+W05,Vómitos/náuseas durante a gravidez,O21,Vomitos excessivos na gravidez
+W10,Contracepção pós-coital,Z303,Extração menstrual
+W11,Contracepção oral,Z304,Supervisão do uso de medicamentos anticoncepcionais
+W12,Contracepção intra-uterina/ Dispositivo Intrauterino/ DIU,Z305,Supervisão de dispositivo anticoncepcional (intra-uterino)
+W13,Esterilização,Z302,Esterilização
+W14,Contracepção/outros,Z30,Anticoncepção
+W15,Infertilidade/subfertildade,N97,Infertilidade feminina
+W17,Hemorragia pós-parto,O721,Outras hemorragias do pós-parto imediato
+W18,Sinais/sintomas pós-parto,O90,Complicações do puerpério não classificadas em outra parte
+W19,Sinais/sintomas da mama/lactação,O928,
+W21,Preocupação com a imagem corporal na gravidez,R468,Outros sintomas e sinais relativos à aparência e ao comportamento
+W27,Medo de complicações na gravidez,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+W28,Limitação funcional/incapacidade,Z736,Limites impostos às atividades por invalidez
+W29,"Sinais/sintomas da gravidez, outros",R688,Outros sintomas e sinais gerais especificados
+W70,Sepsis/infecção puerperal,O85,INFECCAO PUERPERAL
+W71,Infecções que complicam a gravidez,O98,Doença infecciosa parasitária materna cop mas que compliquem a gravidez o parto e o puerpério
+W72,Neoplasia maligna relacionada com gravidez,C58,Neoplasia maligna da placenta
+W73,Neoplasia benigna/incerta relacionada com a gravidez,O01,Mola hidatiforme
+W75,Lesões traumáticas que complicam a gravidez,T14,Traumatismo de região não especificada do corpo
+W76,Malformação congénita que complica a gravidez,O998,"Outras doenças e afecções especificadas complicando a gravidez, o parto e o puerpério"
+W78,Gravidez,Z34,Supervisão de gravidez normal
+W79,Gravidez não desejada,Z324,
+W80,Gravidez ectópica,O00,Gravidez ectópica
+W81,Toxemia gravídica/ DHEG,O14,Hipertensão gestacional (induzida pela gravidez) com proteinúria significativa
+W82,Aborto espontâneo,O03,Aborto espontâneo
+W83,Aborto provocado de alto risco,O04,Aborto por razões medicas e legais
+W84,Gravidez,Z35,Supervisão de gravidez de alto risco
+W85,Diabetes gestacional,O244,Diabetes Mellitus que surge durante a gravidez
+W90,Parto sem complicações de nascido vivo,O80,Parto único espontâneo
+W91,Parto sem complicações de natimorto,Z371,"Nascimento único, natimorto [feto-morto]"
+W92,Parto com complicações de nascido vivo,O66,Outras formas de obstrução do trabalho de parto
+W93,Parto com complicações de natimorto,O66,Outras formas de obstrução do trabalho de parto
+W94,Mastite puerperal,O912,Mastite não purulenta associada ao parto
+W95,Outros problemas da mama durante gravidez/puerpério,O928,
+W96,Outras complicações do puerpério,O90,Complicações do puerpério não classificadas em outra parte
+W99,Outros problemas da gravidez/parto,O99,Doenças da mãe classificadas em outra partemas que complicam a gravidez o parto e o puerpério
+X01,Dor genital,R102,Dor pélvica e perineal
+X02,Dores menstruais,N946,Dismenorréia não especificada
+X03,Dores intermenstruais,N940,Ovulação dolorosa [Mittelschmerz]
+X04,Relação sexual dolorosa na mulher,N941,Dispareunia
+X05,Menstruação escassa/ausente,N915,"Oligomenorréia, não especificada"
+X06,Menstruação excessiva,N920,Menstruação excessiva e freqüente com ciclo regular
+X07,Menstruação irregular/frequente,N921,Menstruação excessiva e freqüente com ciclo irregular
+X08,Hemorragia intermenstrual,N923,Sangramento da ovulação
+X09,Sinais/sintomas pré-menstruais,N94,Outras afecções associadas com os orgãos genitais femininos e com o ciclo menstrual
+X10,Desejo de alterar a data menstruação,Z30,Anticoncepção
+X11,Sinais/sintomas da menopausa/ climatério,N95,Transtornos da menopausa e da perimenopausa
+X12,Hemorragia pós-menopausa,N950,Sangramento pós-menopausa
+X13,Hemorragia pós-coital,N930,Sangramentos pós-coito ou de contato
+X14,Secreção vaginal,N898,Outros transtornos não-inflamatórios especificados da vagina
+X15,Sinais/sintomas da vagina,N89,Transtornos não-inflamatórios da vagina
+X16,Sinais/sintomas da vulva,N90,Transtornos não-inflamatórios da vulva e do perineo
+X17,Sinais/sintomas da pélvis feminina,N94,Outras afecções associadas com os orgãos genitais femininos e com o ciclo menstrual
+X18,Dor na mama feminina,N644,Mastodinia
+X19,Tumor ou nódulo na mama feminina,N63,Nódulo mamário não especificado
+X20,Sinais/sintomas do mamilo da mulher,N645,Outros sintomas e sinais da mama
+X21,"Sinais/sintomas da mama feminina, outros",N64,Doenças da mama
+X22,Preocupação com a aparência da mama feminina,R468,Outros sintomas e sinais relativos à aparência e ao comportamento
+X23,Medo de doença de transmissão sexual,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+X24,Medo de disfunção sexual,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+X25,Medo de câncer genital,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+X26,Medo de câncer na mama,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+X27,Medo de outra doença genital/mama,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+X28,Limitação funcional/incapacidade,Z736,Limites impostos às atividades por invalidez
+X29,"Sinais/sintomas do aparelho genital feminino, outra",N94,Outras afecções associadas com os orgãos genitais femininos e com o ciclo menstrual
+X70,Sífilis feminina,A53,Outras formas e as não especificadas da sífilis
+X71,Gonorréia feminina,B373,Candidíase da vulva e da vagina
+X72,Candidíase genital feminina,A590,Tricomoníase urogenital
+X73,Tricomoníase genital feminina,N73,Doenças inflamatórias pélvicas femininas
+X74,Doença inflamatória pélvica,C53,Neoplasia malígna do colo do utero
+X75,Neoplasia maligna do colo,C57,Neoplasia malígna de outros orgãos genitais femininose dos não especificados
+X76,Neoplasia maligna da mama feminina,D25,Leiomioma do utero
+X77,"Neoplasia maligna genital feminina, outra",D28,Neoplasia benigna de outros orgãos genitais femininose de orgãos não especificados
+X78,Fibromioma uterino,D39,Neoplasia de comportamento incerto ou desconhecido dos orgãos genitais femininos
+X79,Neoplasia benigna da mama feminina/ fibroadenoma,S314,Ferimento da vagina e da vulva
+X80,Neoplasia benigna genital,Q52,Outras malformações congênitas dos orgãos genitais femininos
+X81,"Neoplasia genital feminina, outra/NE",N768,Outras inflamações especificadas da vagina e da vulva
+X82,Lesão traumática genital feminina,N88,Transtornos não-inflamatórios do colo do utero
+X83,Malformações congênitas genitais,N87,Displasia do colo do utero
+X84,Vaginite/vulvite NE,N81,Prolapso genital feminino
+X85,Doença do colo NE,N60,Displasias mamárias benignas
+X86,Esfregaço de Papanicolau/colpocitologia oncótica anormal,N943,Síndrome de tensão pré-menstrual
+X87,Prolapso utero-vaginal,A600,Infecção dos órgãos genitais e do trato geniturinário pelo vírus do herpes
+X88,Doença fibrocística da mama,A630,Verrugas anogenitais (venéreas)
+X89,Síndrome da tensão pré-menstrual,A562,"Infecção por clamídias do trato geniturinário, localização não especificada"
+X90,Herpes genital feminino,N948,Outras afecções especificadas associadas com os órgãos genitais femininos e com o ciclo menstrual
+X91,Condiloma acuminado feminino,A630,Verrugas anogenitais (venéreas)
+X92,Infecção por clamídia,A562,"Infecção por clamídias do trato geniturinário, localização não especificada"
+X99,"Doença genital feminina, outra",N90,Transtornos não-inflamatórios da vulva e do perineo
+Y01,Dor no pênis,R102,Dor pélvica e perineal
+Y02,Dor no escroto/testículos,R102,Dor pélvica e perineal
+Y03,Secreção uretral,R36,Secreção uretral
+Y04,"Sinais/sintomas do pênis, outros",N48,Transtornos do pênis
+Y05,"Sinais/sintomas do escroto/testículos, outros",N50,Transtornos dos orgãos genitais masculinos
+Y06,Sinais/sintomas da próstata,N42,Outras afecções da próstata
+Y07,Impotência NE,N484,Impotência de origem orgânica
+Y08,"Sinais/sintomas da função sexual masculina, outros",N48,Transtornos do pênis
+Y10,Infertilidade/subfertildade masculina,N46,Infertilidade masculina
+Y13,Esterilização masculina,Z302,Esterilização
+Y14,"Planejamento familiar, outros",Z30,Anticoncepção
+Y16,Sinais/sintomas da mama masculina,N645,Outros sintomas e sinais da mama
+Y24,Medo de disfunção sexual masculina,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+Y25,Medo de doença sexualmente transmissível,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+Y26,Medo de câncer genital masculino,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+Y27,"Medo de doença genital masculina, outra",Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+Y28,Limitação funcional/incapacidade,Z736,Limites impostos às atividades por invalidez
+Y29,"Sinais/sintomas, outros",N50,Transtornos dos orgãos genitais masculinos
+Y70,Sífilis masculina,A53,Outras formas e as não especificadas da sífilis
+Y71,Gonorréia masculina,A54,Infecção gonocócica
+Y72,Herpes genital,A600,Infecção dos órgãos genitais e do trato geniturinário pelo vírus do herpes
+Y73,Prostatite/vesiculite seminal,N41,Doenças inflamatórias da próstata
+Y74,Orquite/epididimite,N45,Orquite e epididimite
+Y75,Balanite/ Balanopostite,N481,Balanopostite
+Y76,Condiloma acuminado,A630,Verrugas anogenitais (venéreas)
+Y77,Neoplasia maligna da próstata,C61,Neoplasia maligna da próstata
+Y78,"Neoplasia maligna genital masculina, outra",C63,Neoplasia malígna de outros orgãos genitais masculinos e dos não especificados
+Y79,Neoplasia benigna genital masculina NE,D40,Neoplasia de comportamento incerto ou desconhecido dos orgãos genitais masculinos
+Y80,"Traumatismo genital masculino, outro",S315,Ferimento de outros órgãos genitais externos e os não especificados
+Y81,Fimose/prepúcio redundante,N47,"Hipertrofia do prepúcio, fimose e parafimose"
+Y82,Hipospádias,Q54,Hipospadias
+Y83,Testículo não descido/ Criptorquidia/ Testículo ectópico,Q53,Testiculo não-descido
+Y84,"Malformação genital congénita masculina, outra",Q55,Outras malformações congênitas dos orgãos genitais masculinos
+Y85,Hipertrofia benigna da próstata/ hiperplasia prostática benigna,N40,Hiperplasia da próstata
+Y86,Hidrocele,N433,Hidrocele não especificada
+Y99,"Doença genital masculina, outra",N50,Transtornos dos orgãos genitais masculinos
+Z01,Pobreza/problemas econômicos,Z596,Baixo rendimento
+Z02,Problemas relacionados a água/alimentação,Z594,Falta de alimentação adequada
+Z03,Problemas de habitação/vizinhança,Z59,Problemas relacionados com a habitação e com as condições economicas
+Z04,Problema socio-cultural,Z60,Problemas relacionados com o meio social
+Z05,Problemas com condições de trabalho,Z567,Outros problemas e os não especificados relacionados com o emprego
+Z06,Problemas de desemprego,Z560,Desemprego não especificado
+Z07,Problemas relacionados com educação,Z55,Problemas relacionados com a educação e com a alfabetização
+Z08,Problema relacionado com sistema de segurança social,Z597,Seguro social e medidas de bem-estar social insuficientes
+Z09,Problema de ordem legal,Z653,Problemas ligados à outras circunstâncias legais
+Z10,Problema relacionado com sistema de saúde,Z75,Outros cuidados de saude
+Z11,Problema relacionado com estar doente,Z75,Outros cuidados de saude
+Z12,Problema de relacionamento com parceiro/ conjugal,Z630,Problemas nas relações com cônjuge ou parceiro
+Z13,Problema comportamental do parceiro/  companheiro,Z630,Problemas nas relações com cônjuge ou parceiro
+Z14,Problema por doença do parceiro/ companheiro,Z636,"Parente dependente de cuidados, residente no domicílio"
+Z15,Perda ou falecimento do parceiro/ companheiro,Z634,Desaparecimento ou falecimento de um membro da família
+Z16,Problema de relacionamento com criança,Z62,Outros problemas relacionados com a educação da crianca
+Z18,Problema com criança doente,Z636,"Parente dependente de cuidados, residente no domicílio"
+Z19,Perda ou falecimento de criança,Z634,Desaparecimento ou falecimento de um membro da família
+Z20,Problema de relacionamento com familiares,Z631,Problemas nas relações com os pais ou com os sogros
+Z21,Problema comportamental de familiar,Z63,Outros problemas relacionados com o grupo primário de apoio inclusive com a situação familiar
+Z22,Problema por doença familiar,Z637,Outros acontecimentos difíceis com incidência na família ou no lar
+Z23,Perda/falecimento de familiar,Z634,Desaparecimento ou falecimento de um membro da família
+Z24,Problema de relacionamento com amigos,Z63,Outros problemas relacionados com o grupo primário de apoio inclusive com a situação familiar
+Z25,Ato ou acontecimento violento,T74,Síndromes de maus tratos
+Z27,Medo de problema social,Z711,Pessoa com medo de uma queixa para a qual não foi feito diagnóstico
+Z28,Limitação funcional/incapacidade,Z734,Habilidades sociais inadequadas não classificadas em outra parte
+Z29,Problema social NE,Z65,Outras circunstancias psicossociais
