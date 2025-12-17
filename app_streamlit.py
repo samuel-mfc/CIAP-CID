@@ -1,15 +1,15 @@
 """
-App Streamlit: Conversor CIAP2 <-> CID10
+App Streamlit: Conversor CIAP2 <-> CID10 (base nativa do repositório)
 
-- Lê um CSV com colunas:
-  CIAP,DescricaoCIAP,CID10,DescricaoCID
-
-- Permite escolher se o usuário vai informar CIAP ou CID.
-- Suporta múltiplas entradas (linhas / vírgula / ponto e vírgula).
+Requisitos:
+- Arquivos na mesma pasta do app:
+  - app_streamlit.py
+  - ciap_cid.csv  (com colunas: CIAP,DescricaoCIAP,CID10,DescricaoCID)
 """
 
 from __future__ import annotations
 
+import os
 import re
 import pandas as pd
 import streamlit as st
@@ -20,7 +20,7 @@ import streamlit as st
 # -----------------------------
 def normalize_code(value: str) -> str:
     """
-    Normaliza um código:
+    Normaliza um código (CIAP ou CID):
     - remove espaços
     - coloca em maiúsculo
     """
@@ -39,16 +39,21 @@ def split_inputs(text: str) -> list[str]:
     if not text:
         return []
     parts = re.split(r"[,\n;\t]+", text)
-    return [normalize_code(p) for p in parts if normalize_code(p)]
+    out = []
+    for p in parts:
+        p2 = normalize_code(p)
+        if p2:
+            out.append(p2)
+    return out
 
 
 @st.cache_data(show_spinner=False)
-def load_base(csv_file) -> pd.DataFrame:
+def load_base(csv_path: str) -> pd.DataFrame:
     """
-    Carrega a base a partir de um arquivo CSV (path ou UploadedFile)
-    e cria colunas normalizadas para lookup.
+    Carrega a base CIAP/CID do CSV do repositório e cria colunas normalizadas
+    para busca rápida.
     """
-    df = pd.read_csv(csv_file, encoding="utf-8-sig")
+    df = pd.read_csv(csv_path, encoding="utf-8-sig")
 
     required = {"CIAP", "CID10"}
     if not required.issubset(df.columns):
@@ -57,60 +62,86 @@ def load_base(csv_file) -> pd.DataFrame:
             f"Colunas encontradas: {list(df.columns)}"
         )
 
-    # Normalizados para busca
-    df["CIAP_N"] = df["CIAP"].astype(str).map(normalize_code)
-    df["CID10_N"] = df["CID10"].astype(str).map(normalize_code)
-
-    # Garantir colunas de descrição mesmo se não existirem
+    # Colunas de descrição são opcionais — se não existirem, cria vazias
     if "DescricaoCIAP" not in df.columns:
         df["DescricaoCIAP"] = ""
     if "DescricaoCID" not in df.columns:
         df["DescricaoCID"] = ""
+
+    # Normalizados para lookup
+    df["CIAP_N"] = df["CIAP"].astype(str).map(normalize_code)
+    df["CID10_N"] = df["CID10"].astype(str).map(normalize_code)
 
     return df
 
 
 def lookup(df: pd.DataFrame, mode: str, codes: list[str]) -> pd.DataFrame:
     """
-    Faz lookup conforme modo:
-    - mode = 'CIAP → CID' : procura CIAP_N
-    - mode = 'CID → CIAP' : procura CID10_N
+    Faz lookup conforme o modo:
+    - 'CIAP → CID' busca em CIAP_N
+    - 'CID → CIAP' busca em CID10_N
 
-    Retorna dataframe com resultados (inclusive 'não encontrado').
+    Retorna dataframe com resultados (inclui linhas "NÃO ENCONTRADO").
     """
-    results = []
+    results: list[dict] = []
 
     if mode == "CIAP → CID":
         for c in codes:
             hit = df.loc[df["CIAP_N"] == c]
             if hit.empty:
                 results.append(
-                    {"Entrada": c, "Tipo": "CIAP", "Resultado": "NÃO ENCONTRADO",
-                     "CIAP": c, "DescricaoCIAP": "", "CID10": "", "DescricaoCID": ""}
+                    {
+                        "Entrada": c,
+                        "Tipo": "CIAP",
+                        "Resultado": "NÃO ENCONTRADO",
+                        "CIAP": c,
+                        "DescricaoCIAP": "",
+                        "CID10": "",
+                        "DescricaoCID": "",
+                    }
                 )
             else:
-                # Se houver mais de uma correspondência, retornamos todas
+                # Se houver múltiplas correspondências, retorna todas
                 for _, row in hit.iterrows():
                     results.append(
-                        {"Entrada": c, "Tipo": "CIAP", "Resultado": row["CID10"],
-                         "CIAP": row["CIAP"], "DescricaoCIAP": row["DescricaoCIAP"],
-                         "CID10": row["CID10"], "DescricaoCID": row["DescricaoCID"]}
+                        {
+                            "Entrada": c,
+                            "Tipo": "CIAP",
+                            "Resultado": row["CID10"],
+                            "CIAP": row["CIAP"],
+                            "DescricaoCIAP": row["DescricaoCIAP"],
+                            "CID10": row["CID10"],
+                            "DescricaoCID": row["DescricaoCID"],
+                        }
                     )
 
-    else:  # "CID → CIAP"
+    else:  # 'CID → CIAP'
         for c in codes:
             hit = df.loc[df["CID10_N"] == c]
             if hit.empty:
                 results.append(
-                    {"Entrada": c, "Tipo": "CID", "Resultado": "NÃO ENCONTRADO",
-                     "CIAP": "", "DescricaoCIAP": "", "CID10": c, "DescricaoCID": ""}
+                    {
+                        "Entrada": c,
+                        "Tipo": "CID",
+                        "Resultado": "NÃO ENCONTRADO",
+                        "CIAP": "",
+                        "DescricaoCIAP": "",
+                        "CID10": c,
+                        "DescricaoCID": "",
+                    }
                 )
             else:
                 for _, row in hit.iterrows():
                     results.append(
-                        {"Entrada": c, "Tipo": "CID", "Resultado": row["CIAP"],
-                         "CIAP": row["CIAP"], "DescricaoCIAP": row["DescricaoCIAP"],
-                         "CID10": row["CID10"], "DescricaoCID": row["DescricaoCID"]}
+                        {
+                            "Entrada": c,
+                            "Tipo": "CID",
+                            "Resultado": row["CIAP"],
+                            "CIAP": row["CIAP"],
+                            "DescricaoCIAP": row["DescricaoCIAP"],
+                            "CID10": row["CID10"],
+                            "DescricaoCID": row["DescricaoCID"],
+                        }
                     )
 
     return pd.DataFrame(results)
@@ -120,41 +151,30 @@ def lookup(df: pd.DataFrame, mode: str, codes: list[str]) -> pd.DataFrame:
 # UI Streamlit
 # -----------------------------
 st.set_page_config(page_title="Conversor CIAP2 ↔ CID10", layout="centered")
-
 st.title("Conversor CIAP2 ↔ CID10")
 
-st.write(
-    "Carregue a base CSV (ou use um arquivo local) e escolha se vai digitar **CIAP** ou **CID**."
-)
+# Caminho do CSV no repositório (mesma pasta do app)
+CSV_NAME = "ciap_cid.csv"
+csv_path = os.path.join(os.path.dirname(__file__), CSV_NAME)
 
-# Opção 1: upload
-uploaded = st.file_uploader("Upload do arquivo ciap_cid.csv", type=["csv"])
-
-# Opção 2: usar arquivo local (para quando você rodar no seu PC/servidor)
-use_local = st.checkbox("Usar arquivo local 'ciap_cid.csv' (na mesma pasta do app)", value=True)
-
-csv_source = None
-if uploaded is not None:
-    csv_source = uploaded
-elif use_local:
-    csv_source = "ciap_cid.csv"
-
-if csv_source is None:
-    st.info("Envie o CSV ou marque a opção de arquivo local.")
-    st.stop()
-
-# Carregar base
+# Carregar base (sem upload)
 try:
-    df_base = load_base(csv_source)
+    df_base = load_base(csv_path)
     st.success(f"Base carregada: {len(df_base)} linhas.")
 except Exception as e:
-    st.error(f"Erro ao carregar CSV: {e}")
+    st.error("Não foi possível carregar a base nativa do repositório.")
+    st.code(f"Tentativa de leitura em: {csv_path}")
+    st.exception(e)
     st.stop()
 
 mode = st.radio("Modo de entrada:", ["CIAP → CID", "CID → CIAP"], horizontal=True)
 
 placeholder = "Ex.: A01\nK86" if mode == "CIAP → CID" else "Ex.: I10\nR50"
-raw_text = st.text_area("Cole um ou mais códigos (um por linha, ou separados por vírgula/;):", height=120, placeholder=placeholder)
+raw_text = st.text_area(
+    "Cole um ou mais códigos (um por linha, ou separados por vírgula/;):",
+    height=120,
+    placeholder=placeholder,
+)
 
 codes = split_inputs(raw_text)
 
@@ -162,7 +182,7 @@ col1, col2 = st.columns([1, 1])
 with col1:
     do_search = st.button("Converter", use_container_width=True)
 with col2:
-    st.caption("Dica: você pode colar uma lista inteira.")
+    st.caption("Aceita lista (linhas, vírgula, ;).")
 
 if do_search:
     if not codes:
@@ -180,6 +200,14 @@ if do_search:
             st.warning(f"{r['Tipo']} {r['Entrada']} → NÃO ENCONTRADO")
         else:
             if mode == "CIAP → CID":
-                st.info(f"CIAP {r['CIAP']} → CID {r['CID10']}\n\n{r['DescricaoCIAP']}\n\n{r['DescricaoCID']}")
+                st.info(
+                    f"CIAP {r['CIAP']} → CID {r['CID10']}\n\n"
+                    f"{r['DescricaoCIAP']}\n\n"
+                    f"{r['DescricaoCID']}"
+                )
             else:
-                st.info(f"CID {r['CID10']} → CIAP {r['CIAP']}\n\n{r['DescricaoCID']}\n\n{r['DescricaoCIAP']}")
+                st.info(
+                    f"CID {r['CID10']} → CIAP {r['CIAP']}\n\n"
+                    f"{r['DescricaoCID']}\n\n"
+                    f"{r['DescricaoCIAP']}"
+                )
