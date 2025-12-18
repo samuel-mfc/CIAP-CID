@@ -23,9 +23,16 @@ def normalize_code(value: str) -> str:
     """
     Normaliza um código (CIAP ou CID):
     - remove espaços
+    - remove pontos
     - coloca em maiúsculo
     """
-    return (value or "").strip().upper().replace(" ", "").replace(".","")
+    return (
+        (value or "")
+        .strip()
+        .upper()
+        .replace(" ", "")
+        .replace(".", "")
+    )
 
 
 def split_inputs(text: str) -> list[str]:
