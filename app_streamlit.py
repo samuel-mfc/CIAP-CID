@@ -190,7 +190,6 @@ if do_search:
     # Seleciona e renomeia apenas as colunas desejadas
     df_view = df_out[[
         "Entrada",
-        "Resultado",
         "DescricaoCIAP",
         "CID10",
         "DescricaoCID",
