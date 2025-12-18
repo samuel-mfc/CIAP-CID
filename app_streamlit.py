@@ -151,7 +151,7 @@ def lookup(df: pd.DataFrame, mode: str, codes: list[str]) -> pd.DataFrame:
 # -----------------------------
 # UI Streamlit
 # -----------------------------
-st.set_page_config(page_title="Conversor CIAP2 ↔ CID10", layout="centered")
+st.set_page_config(page_title="CIAP2 ↔ CID10", layout="centered")
 st.title("Conversor CIAP2 ↔ CID10")
 
 # Caminho do CSV no repositório (mesma pasta do app)
