@@ -176,23 +176,8 @@ if do_search:
 
     df_out = lookup(df_base, mode, codes)
 
-    st.subheader("Resultados")
-    
-    # Seleciona e renomeia apenas as colunas desejadas
-    df_view = df_out[[
-        "Entrada",
-        "DescricaoCIAP",
-        "CID10",
-        "DescricaoCID",
-    ]].rename(columns={
-        "DescricaoCIAP": "Descrição CIAP",
-        "DescricaoCID": "Descrição CID",
-    })
-    
-    st.dataframe(df_view, use_container_width=True, hide_index=True)
 
-
-    st.subheader("Visualização rápida")
+    st.subheader("Resultado")
     for _, r in df_out.iterrows():
         if r["Resultado"] == "NÃO ENCONTRADO":
             st.warning(f"{r['Tipo']} {r['Entrada']} → NÃO ENCONTRADO")
@@ -201,12 +186,12 @@ if do_search:
         if mode == "CIAP → CID":
             st.info(
                 f"CIAP {r['CIAP']} → CID {r['CID10']}\n\n"
-                f"{r['DescricaoCIAP']}\n\n"
-                f"{r['DescricaoCID']}"
+                f"CIAP: {r['DescricaoCIAP']}\n\n"
+                f"CID: {r['DescricaoCID']}"
             )
         else:
             st.info(
-                f"CID {r['CID10']} → CIAP {r['CIAP']}\n\n"
-                f"{r['DescricaoCID']}\n\n"
-                f"{r['DescricaoCIAP']}"
+                f"CIAP {r['CIAP']} → CID {r['CID10']}\n\n"
+                f"CIAP: {r['DescricaoCIAP']}\n\n"
+                f"CID: {r['DescricaoCID']}"
             )
