@@ -186,7 +186,7 @@ if do_search:
         if mode == "CIAP → CID":
             st.info(
                 f"CIAP {r['CIAP']} → CID {r['CID10']}\n\n"
-                f"CIAP: {r['DescricaoCIAP']}\n\n"
+                f"CIAP: {r['CIAP']} {r['DescricaoCIAP']}\n\n"
                 f"CID: {r['DescricaoCID']}"
             )
         else:
