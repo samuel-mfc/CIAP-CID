@@ -186,7 +186,21 @@ if do_search:
     df_out = lookup(df_base, mode, codes)
 
     st.subheader("Resultados")
-    st.dataframe(df_out, use_container_width=True, hide_index=True)
+    
+    # Seleciona e renomeia apenas as colunas desejadas
+    df_view = df_out[[
+        "Entrada",
+        "Resultado",
+        "DescricaoCIAP",
+        "CID10",
+        "DescricaoCID",
+    ]].rename(columns={
+        "DescricaoCIAP": "Descrição CIAP",
+        "DescricaoCID": "Descrição CID",
+    })
+    
+    st.dataframe(df_view, use_container_width=True, hide_index=True)
+
 
     st.subheader("Visualização rápida")
     for _, r in df_out.iterrows():
