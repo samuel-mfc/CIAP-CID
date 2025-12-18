@@ -150,16 +150,7 @@ st.title("Conversor CIAP2 ↔ CID10")
 # Caminho do CSV no repositório (mesma pasta do app)
 CSV_NAME = "ciap_cid.csv"
 csv_path = os.path.join(os.path.dirname(__file__), CSV_NAME)
-
-# Carregar base (sem upload)
-try:
-    df_base = load_base(csv_path)
-    st.success(f"Base carregada: {len(df_base)} linhas.")
-except Exception as e:
-    st.error("Não foi possível carregar a base nativa do repositório.")
-    st.code(f"Tentativa de leitura em: {csv_path}")
-    st.exception(e)
-    st.stop()
+df_base = load_base(csv_path)
 
 mode = st.radio("Modo de entrada:", ["CIAP → CID", "CID → CIAP"], horizontal=True)
 
