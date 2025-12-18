@@ -163,8 +163,7 @@ mode = st.radio("Modo de entrada:", ["CIAP → CID", "CID → CIAP"], horizontal
 
 placeholder = "Ex.: A01\nK86" if mode == "CIAP → CID" else "Ex.: I10\nR50"
 raw_text = st.text_area(
-    "Cole um ou mais códigos
-    (um por linha, ou separados por vírgula):",
+    "Insira um ou mais códigos (um por linha, ou separados por vírgula):",
     height=120,
     placeholder=placeholder,
 )
