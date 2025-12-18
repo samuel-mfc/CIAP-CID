@@ -163,18 +163,17 @@ mode = st.radio("Modo de entrada:", ["CIAP → CID", "CID → CIAP"], horizontal
 
 placeholder = "Ex.: A01\nK86" if mode == "CIAP → CID" else "Ex.: I10\nR50"
 raw_text = st.text_area(
-    "Cole um ou mais códigos (um por linha, ou separados por vírgula):",
+    "Cole um ou mais códigos
+    (um por linha, ou separados por vírgula):",
     height=120,
     placeholder=placeholder,
 )
 
 codes = split_inputs(raw_text)
 
-col1, col2 = st.columns([1, 1])
+col1 = st.columns([1, 1])
 with col1:
-    do_search = st.button("Converter", use_container_width=True)
-with col2:
-    st.caption("Aceita lista (linhas, vírgula, ;).")
+    do_search = st.button("Buscar", use_container_width=True)
 
 if do_search:
     if not codes:
