@@ -159,7 +159,7 @@ CSV_NAME = "ciap_cid.csv"
 csv_path = os.path.join(os.path.dirname(__file__), CSV_NAME)
 df_base = load_base(csv_path)
 
-mode = st.radio("Modo de entrada:", ["CIAP → CID", "CID → CIAP"], horizontal=True)
+mode = st.radio("Selecione o modo:", ["CIAP → CID", "CID → CIAP"], horizontal=True)
 
 placeholder = "Ex.: A01\nK86" if mode == "CIAP → CID" else "Ex.: I10\nR50"
 raw_text = st.text_area(
