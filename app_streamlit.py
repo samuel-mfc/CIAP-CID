@@ -170,7 +170,7 @@ raw_text = st.text_area(
 
 codes = split_inputs(raw_text)
 
-col1 = st.columns([1, 1])
+col1, col2 = st.columns([1, 1])
 with col1:
     do_search = st.button("Buscar", use_container_width=True)
 
